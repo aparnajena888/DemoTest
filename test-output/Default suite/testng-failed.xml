@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Askuity.TestExecution.AskuityAutomationScenario">
+        <methods>
+          <include name="verifyPage"/>
+          <include name="proceedToPaymnetTab"/>
+          <include name="setUpBrowser"/>
+          <include name="signUp" invocation-numbers="0"/>
+          <include name="closeBwoser"/>
+        </methods>
+      </class> <!-- com.Askuity.TestExecution.AskuityAutomationScenario -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
